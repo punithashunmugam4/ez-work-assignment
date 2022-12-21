@@ -1,10 +1,13 @@
 import React from 'react';
+import Content from './Content';
 import './Main.css';
+import MainHeader from './MainHeader';
 
-const Main = () => {
+const Main = ({client}) => {
   return (
-    <div>
-      kjsrthkjs
+    <div className='main'>
+      <MainHeader client={client}/>
+      <Content client={client}/>
     </div>
   )
 }

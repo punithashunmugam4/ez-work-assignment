@@ -5,6 +5,39 @@ export const data=[
         code:"LUCF",
         logo:"",
         domains:["@lucasfilm.com","@lucasstarwars.com","@starwars.com","@marvel.com","@dccomics.com"],
+        reg_date:"April 2021",
+        user:[
+            {
+                user_id:1,
+                user_name:"Punitha Shunmugam",
+                email:"punithashunmugam4@gmail.com"
+            },
+            {
+                user_id:2,
+                user_name:"Shunmugam",
+                email:"shunmugam4@gmail.com"
+            },
+            {
+                user_id:3,
+                user_name:"Ajith Kumar",
+                email:"ajithkumar@gmail.com"
+            },
+            {
+                user_id:4,
+                user_name:"Aditya",
+                email:"aditya@gmail.com"
+            },
+            {
+                user_id:5,
+                user_name:"Raj Kumar",
+                email:"rajkumar@gmail.com"
+            },
+            {
+                user_id:6,
+                user_name:"Lakshmi",
+                email:"lakshmi@gmail.com"
+            }
+        ],
         entities:[
             {
                 entity_id:1,
@@ -104,6 +137,39 @@ export const data=[
         code:"TVS",
         logo:"",
         domains:["@tvsmotors.com","@tvsengine.com","@tvscooler.com","@tvsboiler.com","@tvscompressor.com"],
+        reg_date:"July 2021",
+        user:[
+            {
+                user_id:1,
+                user_name:"Punitha Shunmugam",
+                email:"punithashunmugam4@gmail.com"
+            },
+            {
+                user_id:2,
+                user_name:"Shunmugam",
+                email:"shunmugam4@gmail.com"
+            },
+            {
+                user_id:3,
+                user_name:"Ajith Kumar",
+                email:"ajithkumar@gmail.com"
+            },
+            {
+                user_id:4,
+                user_name:"Aditya",
+                email:"aditya@gmail.com"
+            },
+            {
+                user_id:5,
+                user_name:"Raj Kumar",
+                email:"rajkumar@gmail.com"
+            },
+            {
+                user_id:6,
+                user_name:"Lakshmi",
+                email:"lakshmi@gmail.com"
+            }
+        ],
         entities:[
             {
                 entity_id:1,
@@ -203,6 +269,39 @@ export const data=[
         code:"LUCF",
         logo:"",
         domains:["@lucasfilm.com","@lucasstarwars.com","@starwars.com","@marvel.com","@dccomics.com"],
+        reg_date:"August 2020",
+        user:[
+            {
+                user_id:1,
+                user_name:"Punitha Shunmugam",
+                email:"punithashunmugam4@gmail.com"
+            },
+            {
+                user_id:2,
+                user_name:"Shunmugam",
+                email:"shunmugam4@gmail.com"
+            },
+            {
+                user_id:3,
+                user_name:"Ajith Kumar",
+                email:"ajithkumar@gmail.com"
+            },
+            {
+                user_id:4,
+                user_name:"Aditya",
+                email:"aditya@gmail.com"
+            },
+            {
+                user_id:5,
+                user_name:"Raj Kumar",
+                email:"rajkumar@gmail.com"
+            },
+            {
+                user_id:6,
+                user_name:"Lakshmi",
+                email:"lakshmi@gmail.com"
+            }
+        ],
         entities:[
             {
                 entity_id:1,
@@ -302,6 +401,39 @@ export const data=[
         code:"LUCF",
         logo:"",
         domains:["@lucasfilm.com","@lucasstarwars.com","@starwars.com","@marvel.com","@dccomics.com"],
+        reg_date:"December 2021",
+        user:[
+            {
+                user_id:1,
+                user_name:"Punitha Shunmugam",
+                email:"punithashunmugam4@gmail.com"
+            },
+            {
+                user_id:2,
+                user_name:"Shunmugam",
+                email:"shunmugam4@gmail.com"
+            },
+            {
+                user_id:3,
+                user_name:"Ajith Kumar",
+                email:"ajithkumar@gmail.com"
+            },
+            {
+                user_id:4,
+                user_name:"Aditya",
+                email:"aditya@gmail.com"
+            },
+            {
+                user_id:5,
+                user_name:"Raj Kumar",
+                email:"rajkumar@gmail.com"
+            },
+            {
+                user_id:6,
+                user_name:"Lakshmi",
+                email:"lakshmi@gmail.com"
+            }
+        ],
         entities:[
             {
                 entity_id:1,
@@ -401,6 +533,39 @@ export const data=[
         code:"LUCF",
         logo:"",
         domains:["@lucasfilm.com","@lucasstarwars.com","@starwars.com","@marvel.com","@dccomics.com"],
+        reg_date:"March 2022",
+        user:[
+            {
+                user_id:1,
+                user_name:"Punitha Shunmugam",
+                email:"punithashunmugam4@gmail.com"
+            },
+            {
+                user_id:2,
+                user_name:"Shunmugam",
+                email:"shunmugam4@gmail.com"
+            },
+            {
+                user_id:3,
+                user_name:"Ajith Kumar",
+                email:"ajithkumar@gmail.com"
+            },
+            {
+                user_id:4,
+                user_name:"Aditya",
+                email:"aditya@gmail.com"
+            },
+            {
+                user_id:5,
+                user_name:"Raj Kumar",
+                email:"rajkumar@gmail.com"
+            },
+            {
+                user_id:6,
+                user_name:"Lakshmi",
+                email:"lakshmi@gmail.com"
+            }
+        ],
         entities:[
             {
                 entity_id:1,
@@ -500,6 +665,39 @@ export const data=[
         code:"LUCF",
         logo:"",
         domains:["@lucasfilm.com","@lucasstarwars.com","@starwars.com","@marvel.com","@dccomics.com"],
+        reg_date:"June 2021",
+        user:[
+            {
+                user_id:1,
+                user_name:"Punitha Shunmugam",
+                email:"punithashunmugam4@gmail.com"
+            },
+            {
+                user_id:2,
+                user_name:"Shunmugam",
+                email:"shunmugam4@gmail.com"
+            },
+            {
+                user_id:3,
+                user_name:"Ajith Kumar",
+                email:"ajithkumar@gmail.com"
+            },
+            {
+                user_id:4,
+                user_name:"Aditya",
+                email:"aditya@gmail.com"
+            },
+            {
+                user_id:5,
+                user_name:"Raj Kumar",
+                email:"rajkumar@gmail.com"
+            },
+            {
+                user_id:6,
+                user_name:"Lakshmi",
+                email:"lakshmi@gmail.com"
+            }
+        ],
         entities:[
             {
                 entity_id:1,
