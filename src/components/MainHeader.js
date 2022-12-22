@@ -6,10 +6,6 @@ const MainHeader = ({client}) => {
     const [domain,extendDomain]=useState(false)
   return (
     <div className='main-header'>
-        <div className='profile'>
-            <p>Hi Abhishek,&nbsp;</p>
-            <img src='https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png' alt='profile'/>
-        </div>
         <div className='main-section'>
       <div className="section1">
         <div className='main-heading'>

@@ -26,7 +26,7 @@ const Content = ({client}) => {
                     <i className="fa-sharp fa-solid fa-square-plus"></i>
                 </div>
                 <table>
-                    <thead className='table-collection'>
+                    <thead className='table-heading'>
                         <th>Billing Location</th>
                         <th>Entity Name</th>
                         <th>Entity Code</th>
@@ -45,8 +45,8 @@ const Content = ({client}) => {
                                 <td>{entity.file_sharing}</td>
                                 <i className={activeEntity===entity.entity_id ?"fa-solid fa-angle-up" : "fa-solid fa-angle-down"} onClick={()=>activateEntity(entity.entity_id)}></i>
                             </tr>
-                            {activeEntity===entity.entity_id && <td colSpan='6'>
-                            <table className='details-table'><tbody>
+                            {activeEntity===entity.entity_id && <td className='details-table' colSpan='6'>
+                            <table><tbody>
                                 <tr>
                                     <td>
                                     <h2>Address</h2>
@@ -90,7 +90,31 @@ const Content = ({client}) => {
                                         <p>{entity.vat+"+"+entity.wht}</p>
                                     </td>
                                 </tr>
-                            </tbody></table></td>
+                            </tbody></table>
+                            <h2>Corporte price as per MSLA</h2>
+                            <table className='corporate-table'>
+                            <thead className='table-heading'>
+                                <th>Service</th>
+                                <th>Units</th>
+                                <th>List Price</th>
+                                <th>Offered Price</th>
+                                <th>Discount</th>
+                            </thead>
+                            <tbody>
+                                {
+                            entity.corporate_price_per_MSLA.map((corporate)=>{
+                               return <tr className='table-collection corporate-collection'>
+                                    <td>{corporate.service}:{corporate.EZ_assured ? "EZ Assured":null}</td>
+                                    <td>{corporate.units}</td>
+                                    <td>{corporate.list_price} AED</td>
+                                    <td>{corporate.Offered_price} AED</td>
+                                    <td>{corporate.discount}</td>
+                                </tr>
+                                })
+                                }
+                            </tbody>
+                            </table>
+                            </td>
                             }
                             </>
                         ))

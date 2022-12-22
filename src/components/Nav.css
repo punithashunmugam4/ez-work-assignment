@@ -24,3 +24,33 @@
 /* UI Properties */
     background: #EB9CBA;
 }
+@media screen and (max-width:680px) {
+    .nav{
+        display: flex;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: fit-content;
+    /* UI Properties */
+        background: transparent linear-gradient(90deg, #112949 0%, #000000 100%) 0% 0%  no-repeat padding-box;
+        box-shadow: 3px 0px 3px #00000029;
+    }
+    .logo{
+    top: 32px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 56px;
+    height: 53px;
+}
+.nav_btn{
+    cursor: pointer;
+    top: 0px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+/* UI Properties */
+    background: #EB9CBA;
+}
+ }

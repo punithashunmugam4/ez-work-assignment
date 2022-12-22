@@ -49,9 +49,11 @@ nav .active{
     font-size: 1.4rem;
 }
 table{
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0;
     width: 100%;
-    border-spacing:10px 10px;
+    border-spacing:0px 10px;
     border-radius: 5px;
 }
 table i{
@@ -60,33 +62,13 @@ table i{
     color: #3CC3F2;
     font-size: larger;
 }
-.table-collection th{
-    margin-top: 0;
-    padding-top: 0;
-    padding-left: 10px;
-    text-align: left;
-    color: #707070;
-    font-size: 1rem;
-    font-weight: 400;
-    border-spacing:0 20px;
-}
-.table-collection td{
-    padding-left: 10px;
-    font-size: 0.8rem;
-    color: #112949;
-    height: 3rem;
-    border-spacing:0 20px;
-}
 .table-collection{
     box-shadow: 0px 1px 6px #00000029;
+   background-color: #F7FBFC;
 }
 .details-table{
     box-shadow: 0px 1px 6px #00000029;
-}
-.details-table i{
-    margin-top: 16px;
-    margin-right: 10px;
-    vertical-align: top;
+    background-color: #F7FBFC;
 }
 .details-table th{
     margin: 0;
@@ -101,9 +83,23 @@ table i{
     padding: 0;
     font-size: 0.7rem;
     color: #112949;
-    vertical-align: top;
 }
-.details-table h2,p{
+.table-heading th{
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 10px;
+    text-align: left;
+    color: #707070;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.table-collection>td{
+    padding-left: 10px;
+    font-size: 0.7rem;
+    color: #112949;
+    height: 3rem;
+}
+.details-table h2,.details-table p{
     margin: 0;
     padding: 0;
     font-size: 0.7rem; 
@@ -112,4 +108,17 @@ table i{
     padding-bottom: 0.3rem;
     color: #707070;
     font-weight: 400;
+}
+.details-table>h2{
+    font-size: 0.8rem;
+    padding-left: 10px;
+    padding-bottom: 0;
+}
+.corporate-table{
+    background-color: #ffffff;
+    margin: 10px;
+    width: 97%;
+}
+.corporate-collection td{
+    height: 2rem;
 }

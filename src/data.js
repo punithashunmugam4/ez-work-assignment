@@ -66,6 +66,33 @@ export const data=[
                         Offered_price:0.09,
                         discount:"10% ( 19% )"
 
+                    },
+                    {
+                        service:"Arabic Language Translation",
+                        EZ_assured:true,
+                        units:"Words",
+                        list_price:0.1,
+                        Offered_price:0.09,
+                        discount:"10% ( 19% )"
+
+                    },
+                    {
+                        service:"Arabic Language Translation",
+                        EZ_assured:true,
+                        units:"Words",
+                        list_price:0.1,
+                        Offered_price:0.09,
+                        discount:"10% ( 19% )"
+
+                    },
+                    {
+                        service:"Arabic Language Translation",
+                        EZ_assured:true,
+                        units:"Words",
+                        list_price:0.1,
+                        Offered_price:0.09,
+                        discount:"10% ( 19% )"
+
                     }
                 ]
             },
@@ -94,6 +121,24 @@ export const data=[
                         units:"Words",
                         list_price:0.2,
                         Offered_price:0.19,
+                        discount:"10% ( 19% )"
+
+                    },
+                    {
+                        service:"Arabic Language Translation",
+                        EZ_assured:true,
+                        units:"Words",
+                        list_price:0.1,
+                        Offered_price:0.09,
+                        discount:"10% ( 19% )"
+
+                    },
+                    {
+                        service:"Arabic Language Translation",
+                        EZ_assured:true,
+                        units:"Words",
+                        list_price:0.1,
+                        Offered_price:0.09,
                         discount:"10% ( 19% )"
 
                     }
