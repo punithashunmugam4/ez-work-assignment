@@ -29,6 +29,7 @@ function App() {
             <img src='https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png' alt='profile'/>
         </div>
       <Nav/>
+      {/*Below functionality will provide that in mobile view the content part will be visible only if we select the client */}
       {!mobileView && <><Clients setClient={setClient} selectClient={selectClient}/>
       <Main client={client}/></>}
         {mobileView && clientSelected && <Main client={client}/>}
